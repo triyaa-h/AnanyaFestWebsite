@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jersey Day Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("sc.gif");
+            background-repeat: no-repeat; background-size: cover;
+        }
+        header {
+            background-image: url("sc.gif");
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            background-repeat: no-repeat; background-size: cover;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .post {
+            background-color: black;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .post:hover {
+            transform: scale(1.02);
+        }
+        .post img {
+            max-width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .post img:hover {
+            transform: rotate(5deg);
+        }
+        .post h2 {
+            color: #efbd17;
+        }
+        .post p {
+            color: white;
+        }
+        .footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #e5a53fc0;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 style="font-family: 'Times New Roman', Times, serif;"><b><u>JERSEY DAY INSIGHTS</h1></u></b>
+</header>
+
+<div class="container">
+    <div class="post">
+        <img src="p1.png" alt="Sports Image 1">
+        <h2>CRICKETT</h2>
+        <p><b>KSIT recently hosted its much-anticipated annual event, Jersey Day, and it was nothing short of spectacular! This vibrant celebration brought together students, faculty, and staff in a colorful and spirited display of school pride and camaraderie.
+
+            Jersey Day is all about showcasing our love for sports and the values they represent—dedication, perseverance, and teamwork. Participants donned jerseys of their favorite sports teams and athletes, transforming the campus into a lively sea of colors and enthusiasm. The event wasn't just about wearing jerseys; it was a celebration of the collective spirit that sports inspire.
+            
+            The day was filled with a variety of engaging activities and competitions. Friendly matches in soccer, basketball, and volleyball saw teams from different departments battling it out on the field with great energy and sportsmanship. Spectators cheered for their peers, creating an electric atmosphere of support and excitement.
+            
+            In addition to the sports matches, there were workshops and interactive sessions conducted by guest speakers, including renowned athletes and coaches. These sessions provided valuable insights into the world of sports, fitness, and teamwork, inspiring many to pursue their passions with renewed vigor.</p></b>
+    </div>
+    <div class="post">
+        <img src="p2.png" alt="Sports Image 2">
+        <h2>WINNER WINNER CHICKEN DINNER ?</h2>
+        <p><b>NOW,NOW,NOW!!! if there's a competition, then obviously there will a winner right ??? so obviously we had our champions too, who were awarded with cash prize , medal and a certificate , they were praised by the faculty members and the ever enthusiastic crowd. They deserve all the cheers and the love as they put in their best efforts to win the event amongst the other competetive participants ............but as we all know , winning and losing is part of the parcel , partiiapting is the most important, without participants there are no winner and the vice versa!!!</p></b>
+    </div>
+    <div class="post">
+        <img src="nags.png" alt="Gossip Image 3">
+        <h2>ZERO SLEAZE, ONLY PEACE</h2>
+        <p><b>
+            IT IS THE MR.NAGS!!, every rcb lover is a mr.nags lover and we were lucky enough to witness mr.nags and his witty conversation with our friends....and as expected he did not dissapoint us, he infact even had a...ummm..interesting conversion with the facuty members , but we all wonder what they spoke about right ?? anyways him gracing our college was a great thing , wasnt it ? </p></b>
+    </div>
+</div>
+
+<div class="footer">
+   
+</div>
+
+<script>
+    document.querySelectorAll('.post img').forEach(img => {
+        img.addEventListener('click', () => {
+            alert('isnt that cute picture !!?');
+        });
+    });
+</script>
+
+</body>
+</html>
